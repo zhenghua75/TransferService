@@ -1,0 +1,45 @@
+; CLW file contains information for the MFC ClassWizard
+
+[General Info]
+Version=1
+LastClass=CTransferServiceDlg
+LastTemplate=CDialog
+NewFileInclude1=#include "stdafx.h"
+NewFileInclude2=#include "TransferService.h"
+
+ClassCount=3
+Class1=CTransferServiceApp
+Class2=CTransferServiceDlg
+
+ResourceCount=4
+Resource2=IDR_MAINFRAME
+Resource3=IDD_TRANSFERSERVICE_DIALOG
+Resource4=IDD_TRANSFERSERVICE_DIALOG (German (Germany))
+
+[CLS:CTransferServiceApp]
+Type=0
+HeaderFile=TransferService.h
+ImplementationFile=TransferService.cpp
+Filter=N
+
+[CLS:CTransferServiceDlg]
+Type=0
+HeaderFile=TransferServiceDlg.h
+ImplementationFile=TransferServiceDlg.cpp
+Filter=D
+
+
+[DLG:IDD_TRANSFERSERVICE_DIALOG]
+Type=1
+ControlCount=3
+Control1=IDOK,button,1342242817
+Control2=IDCANCEL,button,1342242816
+Control3=IDC_STATIC,static,1342308352
+Class=CTransferServiceDlg
+
+[DLG:IDD_TRANSFERSERVICE_DIALOG (German (Germany))]
+Type=1
+Class=?
+ControlCount=1
+Control1=IDC_STATIC,static,1342308352
+
